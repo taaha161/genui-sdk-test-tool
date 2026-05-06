@@ -1,0 +1,22 @@
+name: genui_devtools_example
+description: Example app demonstrating the genui_devtools Surface Simulator.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  genui: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  genui_devtools:
+    path: ../
+
+flutter:
+  uses-material-design: true
